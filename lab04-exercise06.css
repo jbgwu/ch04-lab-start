@@ -21,3 +21,34 @@ body {
    color: #728B96;
    font-style: italic;
 }
+a:link {
+  font-weight: bold;
+  color: #47B3D7;
+}
+# this is a pseudo-selector
+a:visited {
+  color: #BB78FF;
+}
+a:hover {
+  background-color: #FFFF99;
+}
+nav ul li {
+  list-syle: none;
+  display: inline;
+  margin: 1em;
+  # this adds space only to the left and right
+  # the top and bottom margins are ignored for inline elements 
+}
+nav {
+  padding: 0.25em;
+  # this adds padding wspace within the nav element
+}
+nav a {
+  padding: 0.25em;
+  # this makes the size of the <a> element the same as the container
+  # this makes the hover size the same as the container
+}
+  
+  
+  
+  
