@@ -18,3 +18,28 @@ body {
    color: #ed8030;
 }
 
+section p {
+ # this is a contextual selector
+ # contextual selectors apply to elements based on their ancestors, siblings, or decendants
+ # selects elements based on their context or relation to other elements in the DOM tree
+ # decendent selectors are particularly popular
+  color: #983C2A;   
+}
+
+section>p {
+  # this excludes p elements from this section.... i think
+  color# 983C2A;
+}
+h3+p {
+  # this selects any p elements that immediately follow an <h3> element
+  # child context selector
+  color: blue;
+}
+
+h3~p {
+  # sibling context selector 
+  # this selects any <p> elements that share the same parent as an <h3> element
+}
+
+
+
