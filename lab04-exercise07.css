@@ -18,6 +18,15 @@ body {
    color: #ed8030;
 }
 
+p {
+ color: #983C2A;  
+}
+
+# element subelement = selects all sub-elements within the element
+# element>subelement = selects all children ONLY subelements of the element
+# element+subelement = selects the subelement if it directly follows the element
+# element~subelement = selects all subelements that share the same parent as the element
+
 section p {
  # this is a contextual selector
  # contextual selectors apply to elements based on their ancestors, siblings, or decendants
@@ -26,8 +35,14 @@ section p {
   color: #983C2A;   
 }
 
+div p {
+ #this selects all p elements that exist somewhere within a div element
+  color: #983C2A;  
+}
+
 section>p {
-  # this excludes p elements from this section.... i think
+  # this selects any p elements that are direct CHILDREN of a section element, not p elements nested within tags in a section
+  # this only applies to children, not grandchildren or beyond
   color# 983C2A;
 }
 h3+p {
