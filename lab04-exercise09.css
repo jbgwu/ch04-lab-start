@@ -1,4 +1,10 @@
-
+header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, fic, p, img {
+ margin: 0;
+ passing: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ border: 0;
+}
 
 header, footer {
   color: white;
