@@ -3,3 +3,15 @@ body {
   color: red;
 }
 
+div {
+ font-weight: normal;
+  color: magenta;
+}
+
+p {
+ color: green; 
+}
+
+.last {
+  color: blue;
+}
